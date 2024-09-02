@@ -1,3 +1,13 @@
+// Usar este programa con la libreria RFID_MFRC522v2 by GithubCommunity
+// que se instala desde la IDE de Arduino
+
+// el esquema de conexion esta en ESP32_RFID522.png
+
+
+
+
+
+
 #include <MFRC522v2.h>
 #include <MFRC522DriverSPI.h>
 //#include <MFRC522DriverI2C.h>
