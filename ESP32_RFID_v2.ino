@@ -52,7 +52,7 @@ void loop()
   MFRC522Debug::PICC_DumpToSerial(mfrc522, Serial, &(mfrc522.uid));
 
   // Imprime el UID de la tarjeta en formato hexadecimal.
-  Serial.println("Printing only the Card ID:");
+  Serial.println("Card ID:");
   Serial.println("--------------------------");
   
   // Recorre cada byte del UID de la tarjeta y lo convierte a formato hexadecimal.
