@@ -25,7 +25,9 @@ void setup() {
     while (!Serial);                // Esperamos a que se abra el monitor serial
     SPI.begin();                    // Inicializamos la comunicación SPI
     mfrc522.PCD_Init();             // Inicializamos el lector RFID
-    mfrc522.PCD_SetAntennaGain(110);  // cambia al maximo la ganancia de la antena (permite leer a mayor distancia) OPCIONAL
+    mfrc522.PCD_SetAntennaGain(110);  // cambia al maximo la ganancia de la antena 
+                                    // (permite leer a mayor distancia) OPCIONAL
+                                    // si el lector es el V133 quizas.... pueda hacerlo funcionar
 }
 
 void loop() {
